@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Temporizador">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer 2.0</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+<div id="app">
+  <div class="container">
+
+  <div id="timer">
+    <span id="minutes">00</span>
+    <span>:</span>
+    <span id="seconds">00</span>
+  </div>
+<div id="controls" class="flex">
+  <button 
+  data-action="toggleRunning"
+  class="ph-fill ph-play-circle"></button>
+  <button 
+  data-action="toggleRunning"
+  class="ph-fill ph-stop-circle"></button>
+  <button 
+  id="increaseButton"
+  data-action="plusMinutes"
+  class="ph-fill ph-plus-circle"></button>
+  <button 
+  id="decreaseButton"
+  data-action="minusMinutes"
+  class="ph-fill ph-minus-circle"></button>
+</div>
+</div>
+
+<div id="cards">
+ <button 
+ id="buttonTree secondary"
+ data-action="toggleMusicTree"
+ class="ph-light ph-tree"></button>
+ <button 
+ id="buttonRain secondary"
+ data-action="toggleMusicRain"
+ class="ph-light ph-cloud-rain"></button>
+ <button 
+ id="buttonCoffe secondary"
+ data-action="toggleMusicCoffe"
+ class="ph-light ph-storefront"></button>
+ <button
+ id="buttonFire secondary" 
+ data-action="toggleMusicFire"
+ class="ph-light ph-campfire"></button>
+</div>
+
+</div>
+  
+</body>
+</html>

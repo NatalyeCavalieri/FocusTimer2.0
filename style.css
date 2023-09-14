@@ -1,0 +1,97 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+
+  --text-color:hsla(240, 6%, 21%, 1);
+  --bg-cards:hsla(240, 9%, 89%, 1);
+
+  --bg-click: hsla(194, 97%, 31%, 1);
+  --text-click:hsla(0, 0%, 100%, 1);
+
+}
+
+body{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  max-width: 100%;
+  color: var(--text-color);
+}
+
+#app{
+  display: flex;
+  align-items: center;
+  gap: 19rem;
+}
+
+#timer span{
+  font-size: 12.6rem;
+}
+
+#timer{
+  margin-bottom: 1.7rem;
+}
+
+.flex{
+  display: flex;
+  gap:3rem;
+  justify-content: center;
+}
+.ph-fill{
+  font-size: 4.8rem;
+  color: var(--text-color);
+}
+
+#controls button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+
+
+#cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+
+#cards button{
+  padding: 4.8rem;
+  border-radius: 2.4rem;
+  border: none;
+  background-color: var(--bg-cards);
+  cursor: pointer;
+}
+
+.ph-light{
+  font-size: 5.6rem;
+  color: var(--text-color);
+}
+
+button#buttonTree{
+  background-color: hsla(194, 97%, 31%, 1);
+  color: var(--text-click);
+}
+
+button#buttonRain{
+  background-color: hsla(194, 97%, 31%, 1);
+  color: var(--text-click);
+}
+
+button#buttonCoffe{
+  background-color: hsla(194, 97%, 31%, 1);
+  color: var(--text-click);
+}
+
+button#buttonFire{
+  background-color: hsla(194, 97%, 31%, 1);
+  color: var(--text-click);
+}
