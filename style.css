@@ -67,7 +67,7 @@ body{
   padding: 4.8rem;
   border-radius: 2.4rem;
   border: none;
-  background-color: var(--bg-cards);
+  /*background-color: var(--bg-cards);*/
   cursor: pointer;
 }
 
@@ -76,22 +76,9 @@ body{
   color: var(--text-color);
 }
 
-button#buttonTree{
+.selectedButton{
   background-color: hsla(194, 97%, 31%, 1);
   color: var(--text-click);
 }
 
-button#buttonRain{
-  background-color: hsla(194, 97%, 31%, 1);
-  color: var(--text-click);
-}
 
-button#buttonCoffe{
-  background-color: hsla(194, 97%, 31%, 1);
-  color: var(--text-click);
-}
-
-button#buttonFire{
-  background-color: hsla(194, 97%, 31%, 1);
-  color: var(--text-click);
-}

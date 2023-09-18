@@ -3,4 +3,5 @@ export default{
   seconds:0,
   isMute: true,
   isRunning:false,
+  currentSoundselected: null,
 }
